@@ -70,6 +70,8 @@ def get_order():
 
         if is_valid_order(item) == True:
             order_list.append(item)
+        else:
+            print ("Invalid item")
 
         item = input()
 
